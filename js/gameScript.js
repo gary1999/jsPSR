@@ -77,5 +77,3 @@ function game(){
     console.log("You won " + userScore + " out of " + (userScore + roundCounter) + " rounds.")
 
 }
-
-game();
