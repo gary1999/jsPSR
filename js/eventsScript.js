@@ -88,7 +88,7 @@ function gameRestart(){
 }
 
 function gameTracker(choice){
-    while (gameRounds < 20){
+    while (gameRounds < 1000){
         result = game(choice);
         console.log(gameRounds);
         update(result);
